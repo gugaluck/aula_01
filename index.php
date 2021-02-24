@@ -15,7 +15,8 @@ echo $ul;
 
 //arrays
 $tables = array (
-    'h1' => 'Hello, world!');
+    'h1' => 'Hello, world!',
+    'br' => '<br>'); //COMO COLOCAR ESPAÇO AQUI?
     /*$table = new <table>
         <tr>
             <td>testes 1</td>
@@ -24,5 +25,11 @@ $tables = array (
         </tr>
     </table>*/
 echo $tables['h1'];
+
+$teste = array("Primeiro teste", "Segundo teste", "Terceiro teste"); 
+
+    foreach ($teste as $value) {
+        echo "<br> $value <br>";
+    }
 
 ?>
