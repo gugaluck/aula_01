@@ -1,3 +1,15 @@
+<html>
+    <body>
+
+        <form action="" method"post">
+            <p>
+                <label for"nome">Nome:</label><br>
+                <input type="text" name="nome" id="name"><br>
+                <input type="submit" value="botao"> 
+            </p>  
+        </form>
+    </body>
+</html>
 <?php
 require('autoload.php');
 
@@ -15,21 +27,24 @@ echo $ul;
 
 //arrays
 $tables = array (
-    'h1' => 'Hello, world!',
-    'br' => '<br>'); //COMO COLOCAR ESPAÇO AQUI?
-    /*$table = new <table>
-        <tr>
-            <td>testes 1</td>
-            <td>testes 2</td>
-            <td>testes 3</td>
-        </tr>
-    </table>*/
+    'h1' => 'Hello, world!');
 echo $tables['h1'];
+//receber nome
+if (isset ($_POST['nome'])){
+    $nome = $_POST['nome'];
+    echo "nome digitado $nome";
+}
 
-$teste = array("Primeiro teste", "Segundo teste", "Terceiro teste"); 
 
-    foreach ($teste as $value) {
-        echo "<br> $value <br>";
-    }
 
+//TEM QUE FAZER O FORM TUDO EM PHP, TABELAS, METATAGS, BODY, HEADER
+/*
+<div class = "index">
+    <form method ="POST" action ="index.php" class="form">
+        <p>
+            <input id="nome" name="nome" type="text"/>
+        </p>
+    </form>
+</div>
+*/
 ?>
