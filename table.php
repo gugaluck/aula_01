@@ -3,14 +3,9 @@
     $table  = '<table>';
         $table .= '<thead>';
             $table .= '<tr>';
-                $table .= '<td>Selecionar Cliente</td>';
-                $table .= '<td>idCliente</td>';
-                $table .= '<td>Nome</td>';
-                $table .= '<td>Telefone</td>';
-                $table .= '<td>Endereço</td>';
-                $table .= '<td>Email</td>';
-                $table .= '<td>Editar</td>';
-                $table .= '<td>Excluir</td>';
+                $table .= '<td>teste 1</td>';
+                $table .= '<td>teste 2</td>';
+                $table .= '<td>teste 3</td>';
             $table .= '</tr>';
         $table .= '</thead>';
     $table .= '</table>';
