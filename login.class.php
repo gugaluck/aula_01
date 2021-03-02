@@ -29,9 +29,11 @@ class Login {
         endif;
     }
 }
+
 $logar = new Login();
 $logar->setNome = "gustavo";
 $logar->setSenha = "123";
 $logar->Logar();
 echo "<br>";
+echo $logar->getNome();
 ?>
