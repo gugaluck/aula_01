@@ -1,7 +1,9 @@
 <?php
     require('autoload.php');
     require('login.class.php');
-
+    require('redirecionar.login.php');
+    require('table.php');
+/*
     echo new Link('http://unidavi.edu.br',
     'Unidavi 2021',"_blank",'btn');
     echo new Link('http://google.com.br',
@@ -28,7 +30,7 @@
 
     if (isset ($_POST['sobrenome'])){
         $sobrenome = $_POST['sobrenome'];
-        echo "Nome digitado: <br> $nome $sobrenome";
+        echo "<br> Nome digitado: <br> $nome $sobrenome";
 
     }
     //receber dados
