@@ -39,8 +39,8 @@
         $nome = $_POST['botao'];
         echo "nome digitado $nome";
     }*/
-    
-    //metatags
+
+    //metatags                          <meta name = "nome" content = "nome">
     $tag = get_meta_tags("teste meta tag";
     echo $tag;
 ?>
