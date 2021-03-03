@@ -40,7 +40,8 @@
         echo "nome digitado $nome";
     }*/
 
-
+    $tag = get_meta_tags("teste meta tag";
+    echo $tag;
 ?>
 
 <html>
